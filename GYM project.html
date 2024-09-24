@@ -1,0 +1,86 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+                <div class="nav__logo">
+                  <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+                </div>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Bills</a></li>
+                <li><a href="#">Reports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="admin-login">
+            <h2>Admin Login</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Login">
+            </form>
+            <div class="header__image">
+                <img src="assets/header.png" alt="header" />
+              </div>
+        </section>
+        <section id="add-member">
+            <h2>Add Member</h2>
+            <img src="assets/testimonial.png" alt="class" class="class__img-1" />
+            <img src="assets/why-us.png" alt="class" class="class__img-1" />
+
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <input type="submit" value="Add Member">
+            </form>
+        </section>
+
+        <!-- member.html -->
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Bill Receipts</a></li>
+                    <li><a href="#">Bill Notifications</a></li>
+                    <li><a href="#">Search Records</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="member-login">
+                <h2>Member Login</h2>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"><br>
+                    <img src="assets/member.jpg" alt="member" /><br>
+                    
+
+
+        <!-- Other sections for update/delete members, create bills, assign fee packages, etc. -->
+    </main>
+    <script src="admin.js"></script>
+</body>
+</html>
+
+
+
